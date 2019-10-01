@@ -1,0 +1,224 @@
+body{
+    font-size: 1.1em;
+    background-color:#B9D870;
+    letter-spacing: 1px;
+}
+.golf-icon{
+    height:10vh;  
+}
+.darkorange{
+color:rgb(224, 134, 16) !important;
+}
+.bg-orange{
+    background-color:rgb(224, 134, 16) !important;
+}
+.btn-orange{
+    background-color:rgb(224, 134, 16) !important;
+    color: #fff !important;
+}
+.dashboard-card-header{
+    background-color:rgb(75, 139, 64);
+    color: #fff;
+}
+
+.right{
+    float:right;
+}
+
+.bold{
+    font-weight:bold;
+}
+.bg-green{
+    background-color: rgb(146, 190, 138);
+}
+.card-desc{
+    font-weight:600;
+}
+.register-link{
+    background-color:rgb(224, 134, 16) !important;
+    border-radius: 3px;
+    border: 1px groove rgb(224, 134, 16) !important;\
+    color: #fff !important;
+}
+.navbar-toggler {
+    border:1px solid orange !important;
+  } 
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  .navbar-brand{
+      position:absolute;
+  }
+  .custom-toggler{
+    position:absolute;
+    right:0px;
+  }
+  
+.hr-left{
+    height:2px;
+    background-color: #FFA734;
+}
+.hr-right{
+    height:2px;
+    background-color: rgba(236, 236, 236, 0.959);
+}
+
+.bg-clear{
+    background-color: rgba(24, 24, 24, 0.0) !important;
+}
+.navbar{
+    height:8vh;
+    background-color: rgba(24, 24, 24, 0.0) !important;
+}
+.text-white a{
+    color: #F8F7ED !important;
+}
+.text-white a{
+    font-size:1.3em;
+}
+.page-title{
+    font-size:2em;
+}
+
+.page-description{
+    font-size:1.2em;
+}
+.club-title{
+    font-size:1.4em;
+    font-weight:600;
+} 
+.input_club_distance[type="number"]{
+    height:3em;
+    font-size:2em;
+    text-align:center;
+    border:2px solid green;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.nav-link, .active{
+    color: #fff !important;
+    font-weight:500;
+    letter-spacing: 2.3px;
+    font-size:.9em;
+}
+.nav-item:not(:last-child){
+    margin-right:15px;
+}
+.save-distance{
+    font-size:1em;
+}
+.underline{
+    border-bottom: 1px solid white;
+}
+.select-distance{
+    font-size:1em;
+}
+.nav-link:hover, .active{
+    color: #FFA734 !important;
+}
+.club-table-title{
+    font-weight:bold;
+}
+
+.bg-none{
+    background-color: rgba(0, 0, 0, 0.0) !important;
+}
+
+.golf-cover {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2) ), url("../images/golf-cover1.jpg");
+    height: 100vh;
+    background-size: cover;
+    display:cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cccccc;
+    position:fixed;
+    top:0px;
+    z-index:-1;
+   }
+   .half-golf-cover {
+    background-image:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4) ), url("../images/golf-cover1.jpg");
+    height: 13vh;
+    background-size: cover;
+    display:cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 53%;
+    background-color: #cccccc;
+    position:absolute;
+    top:0px;
+    z-index:-1;
+   }
+   .container-push{
+    margin-top:10vh;
+}
+.container-push  .container{
+    background-color:white;
+    padding: 30px 30px;
+    min-height: 50vh;
+    
+}
+
+.home-title{
+    position:absolute;
+    margin-top:35vh;
+    margin-left:20%;
+    font-size:3em;
+    color: #fff;
+    font-weight:bold;
+}
+@media only screen and (max-width: 768px) {
+    .home-title{
+        position:absolute;
+        margin-top: 30vh;
+        margin-left:0%;
+        font-size:3em;
+        color: #fff;
+        font-weight:bold;
+    }
+    .navbar-collapse{
+        background-color:#fff;
+        z-index:999;
+    }
+    .save-distance{
+        font-size:1em;
+    }
+    .select-distance{
+        font-size:1.5em;
+    }
+
+    .nav-link{
+        color:black !important; 
+        padding-left:20px !important;
+    }
+
+    .home-description{
+        font-size:.35em !important;
+    }
+  }
+
+.home-description{
+    font-size:.4em;
+}
+.registerbtn{
+    font-size:.4em;
+    font-weight:normal;
+}
+.loginbtn{
+    border:1px solid #fff;
+}
+.register-buttons{
+    margin-top:20px;
+}
+.register-link:hover{
+    background-color: #FFA734;
+    border-radius: 3px;
+    border: 1px groove #FFA734;
+    color:white !important;
+}
+
